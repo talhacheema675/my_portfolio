@@ -13,7 +13,7 @@ const Skill=()=>{
 
                 </div>
                 <div className="flex flex-col text-center items-center gap-2 m-4">
-                    <Image src={"/CSS.jpg"} alt="html" width={"200"} height={"200"} className="w-44 h-44 rounded-full"/>
+                    <Image src={"/css.jpg"} alt="html" width={"200"} height={"200"} className="w-44 h-44 rounded-full"/>
                     <h1 className="text-2xl text-bold">CSS</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque molestias</p>
 
