@@ -15,17 +15,17 @@ return (
         <div className="flex md:flex-row flex-col md:justify-between   md:gap-0 gap-8 md:m-6 m-10">
                     <div >
                         <LocateFixed className="text-yellow-400"/>
-                        <h1>Address</h1>
-                    <p>House # 675 B block faisalabad punjab pakistan</p>
+                        <h1 className="font-bold text-lg">Address</h1>
+                    <p>XYZ block Postal code 38000 Faisalabad Punjab Pakistan</p>
                     </div>
                     <div>
                         <PhoneCallIcon className="text-yellow-400"/>
-                        <h1>Phone</h1>
+                        <h1 className="font-bold text-lg">Phone</h1>
                         <p>+923012775555</p>
                     </div>
                     <div>
                         <Mail className="text-yellow-400"/>
-                        <h1>Email</h1>
+                        <h1 className="font-bold text-lg">Email</h1>
                         <p>talhacheema675@gmail.com</p>
                     </div>
         </div>

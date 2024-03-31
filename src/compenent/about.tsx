@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const About=()=>
 {
     return(
@@ -13,7 +14,7 @@ const About=()=>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur earum et neque tempore ea cupiditate praesentium esse dignissimos itaque iure quos fuga mollitia ullam, debitis quisquam velit dolores aliquid voluptatum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel obcaecati dolor, at rem recusandae ex fugiat praesentium quaerat tempora numquam repellat perferendis earum accusamus, nemo pariatur beatae repudiandae consequatur? Repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem in explicabo, sed minus voluptatem animi dolores. Enim provident omnis nesciunt consectetur porro voluptate inventore corrupti repellendus eligendi. Deleniti, iste sit.</p>
                 <div className="flex md:flex-row flex-col">
                     <button className="bg-blue-800 w-48 h-12 rounded-3xl mx-24 my-6 font-bold text-xl hover:bg-gray-800">Download CV</button>
-                    <button className="bg-gray-900 border border-white w-48 h-12 rounded-3xl mx-24 my-6 font-bold text-xl hover:text-2xl">Contact ME</button>
+                    <Link href={"#3"}><button className="bg-gray-900 border border-white w-48 h-12 rounded-3xl mx-24 my-6 font-bold text-xl hover:text-2xl">Contact ME</button></Link>
 
                 </div>
 
