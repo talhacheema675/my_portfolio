@@ -8,7 +8,7 @@ const Header=()=>
     const [showval,setval]=useState(2)
     return(
         <div className="flex flex-row justify-between p-4 bg-black text-white">
-           <Link href={"#"}> <div className="flex flex-row gap-1">
+           <Link href={"#"}> <div className="flex flex-row gap-1 px-1">
                 <Image src={"/logo1.png"} alt="logo1" width="40" height="40"/>
                 <h1 className="text-2xl">Talha cheema</h1>
             </div>
@@ -18,7 +18,7 @@ const Header=()=>
                     <Link href={"#2"}><h1>Portfolio</h1></Link>
                     <Link href={"#4"}><h1>Skills</h1></Link> 
                     <Link href={"#3"}><h1>Contact</h1></Link>
-                    <Link href={"#"}><h1>Login</h1></Link>
+                    
             </div>
             <div className="md:hidden"> <button onClick={()=>setval(showval+1)}><MenuIcon/></button></div>
         </div>
