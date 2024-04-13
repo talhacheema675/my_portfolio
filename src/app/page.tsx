@@ -6,12 +6,10 @@ import Job from "@/compenent/job";
 import Portfo from "@/compenent/portfo";
 import Skill from "@/compenent/skills";
 import Image from "next/image";
-import addTask from "@/compenent/adddata";
-
 export default function Home() {
 
   return (
-   <div className="text-white">
+   <div>
     <Header/>
     <Hero/> 
     <About/>
