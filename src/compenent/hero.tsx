@@ -5,7 +5,7 @@ const Hero=()=>
         <div className=" w-full h-max bg-hero-iamge">
            
             <div className="flex md:flex-row flex-col justify-center items-center py-20">
-                <div className=" w-96 h-full">
+                <div className=" md:w-96 w-full md:px-0 px-2 h-full">
                     <Image src={"/profile5.jpg"} alt="profile" width={"400"} height={"400"} className=" w-full h-96 rounded-3xl"/>
                 </div>
                 <div className="ml-2 flex flex-col justify-center items-center">
