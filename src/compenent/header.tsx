@@ -7,7 +7,7 @@ const Header=()=>
 {
     const [showval,setval]=useState(2)
     return(
-        <div className="flex flex-row justify-between p-4 bg-black text-white">
+        <div className="flex flex-row justify-between p-4 bg-black text-white w-full">
            <Link href={"#"}> <div className="flex flex-row gap-1 px-1">
                 <Image src={"/logo1.png"} alt="logo1" width="40" height="40"/>
                 <h1 className="text-2xl">Talha cheema</h1>

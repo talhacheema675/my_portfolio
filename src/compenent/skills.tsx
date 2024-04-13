@@ -1,7 +1,7 @@
 import Image from "next/image"
 const Skill=()=>{
     return(
-        <div id="4" className="flex flex-col p-12 bg-gray-800 gap-16">
+        <div id="4" className="flex flex-col p-12 bg-gray-800 gap-16 w-full">
 
             <div className="underline decoration-green-600 decoration-6 text-5xl text-center">My Skills</div>
 

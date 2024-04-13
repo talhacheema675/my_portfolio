@@ -2,7 +2,7 @@
 const Job =()=>
 {
    return(
-    <div className="p-6 bg-gray-900">
+    <div className="p-6 bg-gray-900 w-full">
         <div className="text-center text-5xl" >Job Experience</div>
         <div className="grid md:grid-cols-4 grid-cols-1 m-8 gap-4">
             <div className="flex flex-col bg-slate-300 text-black rounded-3xl p-4 h-44 items-center justify-center">
