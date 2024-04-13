@@ -7,7 +7,7 @@ const Skill=()=>{
 
             <div className="grid md:grid-cols-4 grid-cols-2">
                 <div className="flex flex-col text-center items-center gap-2 m-4">
-                    <Image src={"/html.png"} alt="html" width={"200"} height={"200"} className="w-44 md:h-44 h-36 rounded-full"/>
+                    <Image src={"/html.png"} alt="html" width={"200"} height={"200"} className="md:w-44 w-52 md:h-44 h-36 rounded-full"/>
                     <h1 className="text-2xl text-bold">HTML</h1> 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque molestias</p>
 
