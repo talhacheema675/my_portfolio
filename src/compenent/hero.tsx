@@ -5,8 +5,8 @@ const Hero=()=>
         <div className=" w-full h-max bg-hero-iamge">
            
             <div className="flex md:flex-row flex-col justify-center items-center py-20">
-                <div className=" w-max h-full">
-                    <Image src={"/profile5.jpg"} alt="profile" width={"400"} height={"400"} className="rounded-3xl"/>
+                <div className=" w-96 h-full">
+                    <Image src={"/profile5.jpg"} alt="profile" width={"400"} height={"400"} className=" w-full h-96 rounded-3xl"/>
                 </div>
                 <div className="ml-2 flex flex-col justify-center items-center">
                     <h1 className="md:text-7xl text-5xl font-extrabold font-mono py-2">Passionate</h1>
