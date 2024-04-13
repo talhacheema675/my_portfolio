@@ -7,25 +7,25 @@ const Skill=()=>{
 
             <div className="grid md:grid-cols-4 grid-cols-2 w-full">
                 <div className="flex flex-col text-center items-center gap-2 m-4">
-                    <Image src={"/html.png"} alt="html" width={"200"} height={"200"} className="md:w-44 w-72 md:h-44 h-36 rounded-full"/>
+                    <Image src={"/html.png"} alt="html" width={"200"} height={"200"} className="md:w-44 w-80 md:h-44 h-36 rounded-full"/>
                     <h1 className="text-2xl text-bold">HTML</h1> 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque molestias</p>
 
                 </div>
                 <div className="flex flex-col text-center items-center gap-2 m-4">
-                    <Image src={"/css.jpg"} alt="html" width={"200"} height={"200"} className="md:w-44 w-72 md:h-44 h-36 rounded-full"/>
+                    <Image src={"/css.jpg"} alt="html" width={"200"} height={"200"} className="md:w-44 w-80 md:h-44 h-36 rounded-full"/>
                     <h1 className="text-2xl text-bold">CSS</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque molestias</p>
 
                 </div>
                 <div className="flex flex-col text-center items-center gap-2 m-4">
-                    <Image src={"/tail.png"} alt="html" width={"200"} height={"200"} className="md:w-44 w-72 md:h-44 h-36 rounded-full"/>
+                    <Image src={"/tail.png"} alt="html" width={"200"} height={"200"} className="md:w-44 w-80 md:h-44 h-36 rounded-full"/>
                     <h1 className="text-2xl text-bold">Tailwind</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque molestias</p>
 
                 </div>
                 <div className="flex flex-col text-center items-center gap-2 m-4">
-                    <Image src={"/type.png"} alt="html" width={"200"} height={"200"} className="md:w-44 w-72 md:h-44 h-36 rounded-full"/>
+                    <Image src={"/type.png"} alt="html" width={"200"} height={"200"} className="md:w-44 w-80 md:h-44 h-36 rounded-full"/>
                     <h1 className="text-2xl text-bold">Typescript</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque molestias</p>
 
