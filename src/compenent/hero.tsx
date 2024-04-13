@@ -6,13 +6,13 @@ const Hero=()=>
            
             <div className="flex md:flex-row flex-col justify-center items-center py-20">
                 <div className=" w-max h-full">
-                    <Image src={"/profile5.jpg"} alt="profile" width={"400"} height={"400"} className="rounded-3xl"/>
+                    <Image src={"/profile5.jpg"} alt="profile" width={"400"} height={"400"} className="rounded-3xl w-full h-96"/>
                 </div>
                 <div className="ml-2 flex flex-col justify-center items-center">
                     <h1 className="md:text-7xl text-5xl font-extrabold font-mono py-2">Passionate</h1>
                     <h1 className="md:text-7xl text-5xl font-extrabold font-mono py-2">Developer</h1>
                     <h1 className="md:text-3xl text-xl font-extrabold text-gray-400 py-2"> Adept in Full Stack Development</h1>
-                    <div className="flex flex-row  m-2 gap-4">
+                    <div className="flex flex-row  m-2 md:gap-4 gap-1">
                     <Image src={"/next.png"} alt="profile" width={"50"} height={"50"} className="rounded-full"/>
                     <Image src={"/nextauth.jpeg"} alt="profile" width={"50"} height={"50"} className="rounded-full"/>
                     <Image src={"/vercel.png"} alt="profile" width={"50"} height={"50"} className="rounded-full"/>
