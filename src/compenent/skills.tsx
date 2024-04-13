@@ -68,7 +68,7 @@ const Skill=()=>{
                 </div>
                 <div className="flex flex-col text-center items-center gap-2 m-4">
                     <Image src={"/nextauth.jpeg"} alt="html" width={"200"} height={"200"} className="md:w-44 w-80 md:h-44 h-36 rounded-full"/>
-                    <h1 className="text-2xl text-bold">Next Auth</h1>
+                    <h1 className="text-2xl text-bold">Next_Auth</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque molestias</p>
 
                 </div>
@@ -92,7 +92,7 @@ const Skill=()=>{
                 </div>
                 <div className="flex flex-col text-center items-center gap-2 m-4">
                     <Image src={"/shadcn.png"} alt="html" width={"200"} height={"200"} className="md:w-44 w-80 md:h-44 h-36 rounded-full"/>
-                    <h1 className="text-2xl text-bold">Shadcn UI</h1>
+                    <h1 className="text-2xl text-bold">Shadcn_UI</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident doloremque molestias</p>
 
                 </div>
